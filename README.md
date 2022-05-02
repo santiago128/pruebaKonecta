@@ -9,6 +9,11 @@ hacer la instalación descargando o clonando el repositorio en la carpeta Htdocs
  -modificar la conexión con la base de datos y cargar la base llamada pruebaKonecta al gestor de mysql 
  
  
+ Consulta producto con mas Stock
+ SELECT nombreProducto,MAX(stock) FROM `productos`;
+
+ 
+ 
 ¡¡IMPORTANTE!!
 
 Es necesario realizar la instalación del siguiente comando: npm i url 
